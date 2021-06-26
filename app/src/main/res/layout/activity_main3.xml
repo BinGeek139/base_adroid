@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <EditText
+        android:id="@+id/a3_edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="msv" />
+
+    <EditText
+        android:id="@+id/a3_edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ten sinh vien" />
+
+    <EditText
+        android:id="@+id/a3_edit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nam sinh" />
+    <EditText
+        android:id="@+id/a3_edit4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nam sinh" />
+    <Button
+        android:id="@+id/btn_add_a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD" />
+    <ListView
+        android:id="@+id/recycler_a3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
